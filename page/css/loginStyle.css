@@ -1,0 +1,242 @@
+{margin: 0px; padding: 0px;}
+	a{text-decoration: none;} /*일크에 밑줄 제거  */
+
+hr{position:absolute;
+     top:30px;
+ }
+    
+ input{
+	font-size:16px;
+	width:300px;
+	float:left;
+}
+
+button{
+	width:50px;
+	height:100%;
+	border:0px;
+	background-color:#c0c0c0;
+	outline:none;
+	float:right;
+	color:#ffffff;
+	
+	
+}
+
+.top_menu{
+	position: absolute;
+	top:10px;
+	right:100px;
+
+}
+/* top_menu a의 글씨 검은색으로,폰트사이트 16px,간격 16px  */
+.top_menu a{
+	color:black;
+	font-size:16px;
+	margin-left:16px;
+	}
+
+.logo{
+		position: absolute;
+		top: 100px;
+		left: 300px;
+}
+
+.search{
+	position:absolute;
+	top:100px;
+	left: 800px;
+}
+/* 검색창 안에 "상품 검색어 입력" 색 변경*/
+input:-ms-input-placeholder {color:#c0c0c0;}
+input::-webkit-input-placeholder {color:#c0c0c0;}
+input::-moz-placeholder {color:#c0c0c0;}
+#popsearch {
+	position:absolute;
+	font-size: 12px;
+	top:130px;
+	left:800px;
+}
+
+#popsearch a{
+	color: #606060;
+}
+
+
+.menu ul li{
+		list-style:none;
+		
+		
+}
+
+.menu a{
+		text-decoration:none;
+		text-align:center;
+		color:#ffffff;
+}
+
+.menu a:hover{
+	color:#222222;
+}
+
+.menu {
+	position:absolute;
+	font: bold 16px "malgun gothic";
+	width:100%;
+	height:50px;
+	top:200px;
+	background: #888888;
+	color: black;
+	line-height:50px;
+	margin:0px auto;
+	text-align:center;
+}
+
+.menu > ul > li{
+	float:left;
+	width:140px;
+	position:relative;
+}
+
+.menu > ul > li:hover{
+	color:#202020;
+}
+	
+.menu > ul > li > ul {
+	width:140px;
+	display:none;
+	position: absolute;
+	font-size: 14px;
+	background-color:#c0c0c0;
+}
+		
+.menu > ul > li:hover > ul {
+	display:block;
+}
+
+
+
+.main_container{
+    border: 0px solid;
+    position:absolute;
+    left: 450px;
+    top: 300px;
+}
+
+.login_container{
+    width: 1000px; 
+    height: 300px; 
+    margin: auto; 
+    border-radius: 3px; 
+    box-shadow: 0px 0px 20px rgb(68, 68, 68);
+}
+
+.form_container{
+    width: 300px;
+    margin: auto;
+}
+
+.form_title_div{
+    margin: auto; 
+    text-align: left;
+}
+
+.form_title_p{
+    font-weight: bold; 
+    font-size: 22px; 
+    display: inline-block; 
+    padding-top: 8px;
+    color:#444444;
+    position:relative;
+    left:-200px;
+}
+
+.form_input{
+    width: 98%; 
+    height: 30px; 
+    border: 1px solid; 
+    border-radius: 3px; 
+    border-color: gray;
+    position:relative;
+    left:-100px;
+}
+
+.form_item_name{
+    color: gray;
+    position:relative;
+    left:-200px;
+    top : 25px;
+}
+
+.form_text_alert{
+    height: 20px;
+}
+
+.form_text_alert_padding{
+    padding-bottom: 10px;
+}
+
+.form_submit_button{
+    width: 100%; 
+    height: 44px; 
+    background-color: #202020; 
+    border: 1px; 
+    border-radius: 3px; 
+    color: white; 
+    font-size: 17px; 
+    font-weight: 500;
+    position:relative;
+    left:-100px;
+}
+
+.signUp{
+    width: 50%; 
+    height: 44px; 
+    background-color: #606060; 
+    border: 1px; 
+    border-radius: 3px; 
+    color: white; 
+    font-size: 17px; 
+    font-weight: 500;
+    position:relative;
+    left: 220px;
+    top:-140px;
+    
+}
+
+.findIdPw{
+    width: 70%; 
+    height: 44px; 
+    background-color: #767676; 
+    border: 1px; 
+    border-radius: 3px; 
+    color: white; 
+    font-size: 17px; 
+    font-weight: 500;
+    position:relative;
+    left: 250px;
+    top:-130px;
+}
+
+.easy_a{
+    font-weight: bold;
+    font-size:24px;
+    position:absolute;
+    top: 680px;
+    left:800px;
+
+}
+
+.loginKakao{
+    position:absolute;
+    top:730px;
+    left:780px;
+}
+
+.loginNaver{
+    width:700px;
+    height:60px;
+    position:absolute;
+    top:780px;
+    left:520px;
+}
